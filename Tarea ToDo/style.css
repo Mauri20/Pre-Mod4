@@ -1,0 +1,74 @@
+/* ANCHO Y ALTO VISUAL */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Margen interno y externo del ul*/
+  ul {
+    margin: 0 30%;
+    padding: 0;
+    list-style-type: none;
+  }
+  ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: rgb(218, 223, 230);
+    font-size: 18px;
+    border: rgb(179, 187, 197) 0.5px solid;
+    color: #5c5858;
+  }
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  /* Boton de cierre */
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    background-color: #f7938c;
+    color: white;
+  }
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  /* Cabecera */
+  .header {
+    margin: 0 30%;
+    background-color: #98acd6;
+    margin-top: 5%;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 90%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  .addBtn {
+    padding: 10px;
+    width: 10%;
+    background: #b4f0ac;
+    color: #ffffff;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+  }
+  .addBtn:hover {
+    background-color: #97d68e;
+  }
